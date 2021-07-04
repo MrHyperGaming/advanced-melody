@@ -37,3 +37,5 @@ for (const file of player) {
 };
 
 client.login(client.config.discord.token);
+
+  require("http").createServer((req, res) => res.end("The bot is online")).listen();  
