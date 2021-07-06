@@ -29,7 +29,7 @@ Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.
 Contributions are always welcomed :D Make sure to follow [Contributing.md](/CONTRIBUTING.md)
 
 <a href="https://github.com/MrHyperGaming/advanced-melody/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=xdhyper/highend-musicbot-byhyper" />
+  <img src="https://contributors-img.web.app/image?repo=MrHyperGaming/advanced-melody" />
 </a>
 
 Made with :heart: and JavaScript!
