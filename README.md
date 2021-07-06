@@ -1,86 +1,35 @@
-# Music-bot
-A complete code to download for a music bot. Using a module (discord-player) 🎧
+<h1 align="center"><img src="./assets/logo.gif" width="30px"> Discord Music Bot <img src="./assets/logo.gif" width="30px"></h1>
 
-Looking for a code for a music bot ? This fully open source code is made for your project !
+## ✨Latest Updates✨
 
-If you need help with this project, to get support faster you can join the help server by just clicking [here](https://discord.gg/fU4YkC7AKX).
+> We are graciously waiting for Discord.js to update to v13 (as a stable version) so we can start updating the bot again. We know the bot has some bugs at the moment. 
+>
+> We can't fix all of them right now. Please check out the latest list of updates, improvements, and fixes to be made in Version 5 in the Discussions section or by clicking [here](https://github.com/xdhyper/highend-musicbot-byhyper/discussions/4)
 
-### ⚡ Installation
+When you decide that you want to host this bot yourself, please do not expect this to work on the first try unless you know what you're doing. You need to know how to use the Discord Developer Portal as well as adding redirect_uri links to make your dashboard work properly. We try to help as best as we can, but please don't expect us to do it for you because are things that are required when using this bot.
 
-Well, let's start by downloading the code.
-Go to the folder `config` then the file `bot.js`.
-For the bot to be able to start, please complete the file with your credentials as follows :
 
-- For emojis
+## 📝 Tutorial
 
-```js
-emojis: {
-    off: ':x:',
-    error: ':warning:',
-    queue: ':bar_chart:',
-    music: ':musical_note:',
-    success: ':white_check_mark:',
-}
-```
+A Tutorial has been uploaded on YouTube <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" width="30px"> Watch it by clicking [here](https://www.youtube.com/watch?v=p4lP96Tiv9s)
 
-- For configuration
+## 📝 [Support Server](https://discord.gg/a9SHDpD)
 
-```js
-discord: {
-    token: 'TOKEN',
-    prefix: 'PREFIX',
-    activity: 'ACTIVITY',
-}
-```
+Do you have any issues with the bot? Head to our [Discord Server](https://discord.gg/uUuHMa7h46) where we can help you faster than creating a GitHub issue. If you have a major bug to report, it would be best to create an [issue here](https://github.com/xdhyper/highend-musicbot-byhyper/issues).
 
-- `token`, the token of the bot available on the [Discord Developers](https://discordapp.com/developers/applications) section.
-- `prefix`, the prefix that will be set to use the bot.
-- `activity`, the activity of the bot.
 
-In the console, type `npm install` to install all dependencies.
+## 💨 Run the projects
 
-- To start the bot :
+Glitch: [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/xdhyper/highend-musicbot-byhyper)
+Repl: [![Run on Repl.it](https://repl.it/badge/github/xdhyper/highend-musicbot-byhyper)](https://repl.it/github/xdhyper/highend-musicbot-byhyper)
+Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xdhyper/highend-musicbot-byhyper)
 
-```
-#With Node
-node index.js
-npm start #Indicated in package.json
+## ✨ Contributors
 
-#With pm2
-pm2 start index.js --name "MusicBot"
-```
+Contributions are always welcomed :D Make sure to follow [Contributing.md](/CONTRIBUTING.md)
 
-All you have to do is turn on your bot !
+<a href="https://github.com/MrHyperGaming/advanced-melody/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=xdhyper/highend-musicbot-byhyper" />
+</a>
 
-### 🎵 Music commands
-
-```
-play <name/URL>, play music in a voice channel.
-search <name>, open a panel to choose a music and then play it.
-pause, pause the current music.
-resume, puts the current music back on.
-queue, see the next songs.
-clear-queue, remove music in the queue.
-shuffle, to mix the queue.
-nowplaying, see music in progress.
-loop, to enable or disable the repeat function.
-volume <1 - 100>, change the volume.
-skip, skip to next music.
-stop, stop all music.
-filter <filter>, add / remove filter.
-w-filters, see filters.
-```
-
-### 💡 General commands
-
-```
-ping, see the bot latency.
-help, see the list of available commands.
-debug, see number of voice connections.
-```
-
-### 🏓 Utilities (to change the code)
-
-Find all the functions available on the official code [right here](https://github.com/Androz2091/discord-player).
-
-This is used with [discord.js](https://www.npmjs.com/package/discord.js) and [discord-player](https://www.npmjs.com/package/discord-player).
+Made with :heart: and JavaScript!
